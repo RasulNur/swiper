@@ -8,7 +8,8 @@ import "./style.css";
 new Swiper(".swiper", {
     autoplay: { delay: 5000 },
 
-    slidesPerView: auto,
+    spaceBetween: 12,
+    slidesPerView: "auto",
     // slidesPerView: 3,
     // breakpoints: {
     //     1279: { slidesPerView: 4 },
